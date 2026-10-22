@@ -1,0 +1,13 @@
+{
+  "study_id": "yogyakarta_figshare_21321192_v1",
+  "rows": 6895,
+  "locations": 35,
+  "date_min": "2006-01-01",
+  "date_max": "2022-05-01",
+  "duplicate_months": 0,
+  "missing_outcomes": 0,
+  "unknown_control_rows": 6895,
+  "outcome_definition": "Hospitalised notified DHF only; DF retained separately, never silently summed across surveillance changes",
+  "training_eligible": false,
+  "reason": "Noncomparable outcomes/intervention designs; permanent controls and clean windows require separate review"
+}

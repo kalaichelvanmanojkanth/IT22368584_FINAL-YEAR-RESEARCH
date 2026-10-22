@@ -1,0 +1,54 @@
+{
+  "run_id": "20261021T215308Z_52d8d5dc",
+  "phase": "C/D/E",
+  "figures": [
+    "artifacts/figures/20261021T215308Z_52d8d5dc/cde_test_comparison.png",
+    "artifacts/figures/20261021T215308Z_52d8d5dc/cde_test_by_zone.png",
+    "artifacts/figures/20261021T215308Z_52d8d5dc/cde_validation_selection.png",
+    "artifacts/figures/20261021T215308Z_52d8d5dc/cde_expected_error.png",
+    "artifacts/figures/20261021T215308Z_52d8d5dc/cde_dynamic_weights.png",
+    "artifacts/figures/20261021T215308Z_52d8d5dc/cde_error_coverage.png",
+    "artifacts/figures/20261021T215308Z_52d8d5dc/cde_paired_errors.png"
+  ],
+  "tests": {
+    "source": "artifacts/metrics/all_tests.xml",
+    "tests": 81,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 81
+  },
+  "conclusion": "The proposed ensemble does not beat all required baselines on the held-out mean normalized MAE. The improvement hypothesis is not established.",
+  "test_comparison": [
+    {
+      "strategy": "cits",
+      "mae": 5.020992560192302,
+      "rmse": 6.146944269520487,
+      "normalized_mae": 0.05230883151613225
+    },
+    {
+      "strategy": "synthetic_control",
+      "mae": 10.800339122956988,
+      "rmse": 13.570745445191566,
+      "normalized_mae": 0.12034635150476988
+    },
+    {
+      "strategy": "equal_weight",
+      "mae": 6.919152263600014,
+      "rmse": 8.886822632297449,
+      "normalized_mae": 0.07446238837203226
+    },
+    {
+      "strategy": "best_historical",
+      "mae": 10.800339122956988,
+      "rmse": 13.570745445191566,
+      "normalized_mae": 0.12034635150476988
+    },
+    {
+      "strategy": "dynamic",
+      "mae": 6.944317642937503,
+      "rmse": 8.91759181983771,
+      "normalized_mae": 0.07476565811291061
+    }
+  ]
+}

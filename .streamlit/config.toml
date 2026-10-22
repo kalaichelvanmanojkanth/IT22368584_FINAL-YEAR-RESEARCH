@@ -1,0 +1,15 @@
+[server]
+headless = true
+# Let the hosting platform choose its listener. For local-only access, pass
+# --server.address 127.0.0.1 in the launch command documented in README.md.
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#087e83"
+backgroundColor = "#f5f7fa"
+secondaryBackgroundColor = "#eaf0f5"
+textColor = "#172d42"
+font = "sans serif"

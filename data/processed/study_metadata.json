@@ -1,0 +1,21 @@
+{
+  "study_id": "niteroi_zone_v3",
+  "study_design": "quasi-experimental",
+  "intervention_type": "wMel Wolbachia mosquito deployments",
+  "description": "Niteroi zone-level monthly surveillance and entomological data",
+  "data_source": "https://doi.org/10.6084/m9.figshare.13662203.v3",
+  "publication": "https://doi.org/10.1371/journal.pntd.0009556",
+  "licence": "CC BY 4.0",
+  "geographic_resolution": "release zone / untreated control zone",
+  "time_resolution": "monthly",
+  "treatment_definition": "intervention_start: releases started throughout zone; monitoring_start: source post-intervention classification, four weeks later",
+  "control_definition": "source group=0: Untreated control",
+  "known_limitations": [
+    "One permanent control zone",
+    "Zone 1 includes 2015-16 pilot",
+    "Partial releases can precede zone-wide start",
+    "Suspected and confirmed notifications",
+    "Population uses 2000 census in 2007-09, 2010 census subsequently",
+    "No verified unit centroids or independent exposure dose"
+  ]
+}

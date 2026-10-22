@@ -1,0 +1,30 @@
+data:
+  study_id: niteroi_zone_v3
+  country: Brazil
+  raw_dir: data/raw/niteroi
+  filename: Niteroi_ZoneData_May2021_Shared.xls
+  article_id: 13662203
+  version: 3
+  expected_md5: a31b89e0f2bc0a4d17271b3a386defb8
+models:
+  min_pre_months: 36
+  min_post_months: 6
+  horizon_months: 6
+  seasonal_harmonics: 2
+  cits_family: negative_binomial
+  nb_alpha: 1.0
+  scm_outcome: dengue_incidence
+  donor_concentration_warning: 0.8
+  optimizer_max_iterations: 2000
+  optimizer_tolerance: 1.0e-10
+  holdout_months: 12
+seed: 42
+treated_units: [zone_1, zone_2, zone_3, zone_4]
+control_units: [control]
+# These are conservative analysis exclusions, NOT invented release dates.
+# Zone 1 includes the 2015-16 Jurujuba pilot; scaled releases started in 2017.
+clean_pre_end:
+  zone_1: '2014-12-01'
+  zone_2: '2016-12-01'
+  zone_3: '2016-12-01'
+  zone_4: '2016-12-01'

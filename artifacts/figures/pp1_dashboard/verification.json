@@ -1,0 +1,41 @@
+{
+  "timestamp_utc": "2026-10-22T04:33:22.108825+00:00",
+  "url": "http://127.0.0.1:8501",
+  "reliability_run": "20261021T215308Z_52d8d5dc",
+  "dataset_sha256": "5f4d4e8dee470de2a1f9bbc99290127a11ebc6d24e5e05f4eaca743e31ecb9c7",
+  "source_sha256": {
+    "app/streamlit_app.py": "767c89c1fc7a602520362f43844b7df81707491258da374c1ddcc2bfa422737d",
+    "app/evidence.py": "d38a1a5cb338c2f0e329e19bac0f5fdc2023e761dfb7653cb512094afbf822d0",
+    ".streamlit/config.toml": "c050d9d36b88c041bd692b0b75070ed73753060656b177678aacbc38d737fcbb"
+  },
+  "screenshots": [
+    "artifacts/figures/pp1_dashboard/01_overview.png",
+    "artifacts/figures/pp1_dashboard/02_data_audit.png",
+    "artifacts/figures/pp1_dashboard/03_counterfactual_insufficient_evidence.png",
+    "artifacts/figures/pp1_dashboard/04_model_comparison.png",
+    "artifacts/figures/pp1_dashboard/05_reliability.png",
+    "artifacts/figures/pp1_dashboard/06_robustness_current.png",
+    "artifacts/figures/pp1_dashboard/06b_robustness_archived.png",
+    "artifacts/figures/pp1_dashboard/07_export.png",
+    "artifacts/figures/pp1_dashboard/08_mobile_overview.png"
+  ],
+  "pages_checked": [
+    "Overview",
+    "Data Audit",
+    "Counterfactual Analysis",
+    "Model Comparison",
+    "Reliability",
+    "Robustness",
+    "Export"
+  ],
+  "downloads": [
+    "artifacts/exports/pp1_dashboard/race_dengue_analysis.json",
+    "artifacts/exports/pp1_dashboard/race_dengue_analysis.csv",
+    "artifacts/exports/pp1_dashboard/race_dengue_analysis.md"
+  ],
+  "browser_errors": [],
+  "status": "passed",
+  "browser_version": "155.0.8059.86",
+  "archived_robustness_checked": true,
+  "export_matches_pipeline": true
+}

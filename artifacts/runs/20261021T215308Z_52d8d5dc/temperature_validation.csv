@@ -1,0 +1,9 @@
+model_kind,temperature,validation_normalized_mae
+gradient_boosting,0.1,1.6263404638957333
+gradient_boosting,0.3,1.5639937589905966
+gradient_boosting,1.0,1.4799211734492506
+gradient_boosting,3.0,1.4667222900341212
+hist_gradient_boosting,0.1,1.6136788132335387
+hist_gradient_boosting,0.3,1.5409050237759805
+hist_gradient_boosting,1.0,1.479670879676964
+hist_gradient_boosting,3.0,1.4682677342006851

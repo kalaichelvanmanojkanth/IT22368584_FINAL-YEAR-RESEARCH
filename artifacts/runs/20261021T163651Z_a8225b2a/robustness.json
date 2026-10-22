@@ -1,0 +1,12 @@
+{
+  "reliability_run": "20261021T163651Z_a8225b2a",
+  "in_time_rows": 338,
+  "in_space_status": "unavailable with one permanent control",
+  "donor_removal_status": "unavailable with one permanent control",
+  "stress_scenarios": 33,
+  "stress_completed": 18,
+  "stress_abstained_before_prediction": 15,
+  "semi_synthetic_experiments": 63,
+  "ablation_rows": 4,
+  "warning": "Exploratory robustness on frozen test experiments; no model reselection"
+}

@@ -1,0 +1,23 @@
+{
+  "study_id": "colombia_figshare_22724663_v1",
+  "study_design": "City-wide phased deployments; interrupted time series",
+  "intervention_type": "wMel Wolbachia mosquito deployments",
+  "description": "Notified suspected cases excluding IgM test-negative cases in Medellin/Bello; aggregate notifications in Itagui",
+  "data_source": "https://doi.org/10.6084/m9.figshare.22724663.v1",
+  "publication": "https://doi.org/10.1371/journal.pntd.0011713",
+  "licence": "CC BY 4.0",
+  "geographic_resolution": "city/reporting area",
+  "time_resolution": "monthly",
+  "treatment_definition": "Source first release date plus preserved multi-state exposure status; requires design-specific review",
+  "control_definition": "Not established as a permanent donor set; control_status remains null",
+  "known_limitations": [
+    "Outcome definition differs from Niteroi",
+    "No verified permanent control set",
+    "Release indicator alone does not capture full/partial exposure or contamination",
+    "No cross-site model training/evaluation performed"
+  ],
+  "excluded_predictors": [
+    "wmel_ipol"
+  ],
+  "exclusion_reason": "Source interpolation may use future monitoring; not used as predictor"
+}

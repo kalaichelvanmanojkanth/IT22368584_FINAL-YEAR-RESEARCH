@@ -1,0 +1,117 @@
+{
+  "url_public_html": "https://bridges.monash.edu/articles/dataset/Aburra_Valley_notified_dengue_cases_and_wMel_Wolbachia_prevalence_by_comuna_and_month/22724663/1",
+  "files": [
+    {
+      "id": 42267318,
+      "name": "AV dengue case and wMel time series data_Figshare.xls",
+      "size": 946688,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/42267318",
+      "supplied_md5": "249059310332f70e06ccda401dd217a1",
+      "computed_md5": "249059310332f70e06ccda401dd217a1",
+      "mimetype": "application/vnd.ms-excel"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 20963444,
+      "full_name": "Katie Anders",
+      "first_name": "Katie",
+      "last_name": "Anders",
+      "is_active": true,
+      "url_name": "Katie_Anders",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://bridges.monash.edu/articles/dataset/Aburra_Valley_notified_dengue_cases_and_wMel_Wolbachia_prevalence_by_comuna_and_month/22724663",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">This dataset holds monthly dengue case notifications data and Wolbachia monitoring for each reporting area (comuna) in the three Colombian cities of Bello, Medellin and Itagui, where wMel Wolbachia deployments were conducted between 2015 and 2021. It underlies the interrupted time series analysis and results reported in the paper by Velez et al \"Reduced dengue incidence following city-wide wMel Wolbachia mosquito releases throughout three Colombian cities: interrupted time series analysis and a prospective case-control study\" published in PLoS Neglected Tropical Diseases in 2023.</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 946688,
+  "created_date": "2023-09-06T03:10:15Z",
+  "modified_date": "2025-06-12T12:55:51Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Dengue",
+    "Chikungunya",
+    "Zika",
+    "Wolbachia",
+    "mosquito-borne disease prevention"
+  ],
+  "keywords": [
+    "Dengue",
+    "Chikungunya",
+    "Zika",
+    "Wolbachia",
+    "mosquito-borne disease prevention"
+  ],
+  "categories": [
+    {
+      "id": 24508,
+      "title": "Infectious diseases",
+      "parent_id": 24475,
+      "path": "/24457/24475/24508",
+      "source_id": "320211",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 27046,
+      "title": "Disease surveillance",
+      "parent_id": 27040,
+      "path": "/27001/27040/27046",
+      "source_id": "420202",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 27205,
+      "title": "Public health not elsewhere classified",
+      "parent_id": 27184,
+      "path": "/27001/27184/27205",
+      "source_id": "420699",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Anders, Katie (2023). Aburra Valley notified dengue cases and wMel Wolbachia prevalence by comuna and month. Monash University. Dataset. https://doi.org/10.6084/m9.figshare.22724663.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 22724663,
+  "title": "Aburra Valley notified dengue cases and wMel Wolbachia prevalence by comuna and month",
+  "doi": "10.6084/m9.figshare.22724663.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/22724663",
+  "published_date": "2023-09-06T03:10:15Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": 1467,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/22724663",
+  "url_public_api": "https://api.figshare.com/v2/articles/22724663",
+  "url_private_html": "https://figshare.com/account/articles/22724663",
+  "timeline": {
+    "posted": "2023-09-06T03:10:15",
+    "firstOnline": "2023-09-06"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

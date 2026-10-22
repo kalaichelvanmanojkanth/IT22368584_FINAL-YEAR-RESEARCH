@@ -1,0 +1,154 @@
+{
+  "temperature": 3.0,
+  "best_historical": "synthetic_control",
+  "policy": {
+    "predicted_error_limit": 1.0619487071215346,
+    "disagreement_limit": 0.8322310980657283,
+    "pre_rmse_limit": 1.296198462375922,
+    "extrapolation_limit": 6.367533746842004,
+    "reference_error": 0.20960252474016774,
+    "max_seen_gap": 0.0,
+    "min_horizon": 3,
+    "max_horizon": 6,
+    "min_calibration_blocks": 8,
+    "reliability_threshold": 0.21510441400424551
+  },
+  "selector": {
+    "threshold": 0.21510441400424551,
+    "minimum_coverage": 0.5,
+    "validation_coverage": 0.5357142857142857,
+    "validation_risk": 0.3420552342276605,
+    "validation_experiment_ids": [
+      "niteroi_zone_v3_zone_1_201301_3",
+      "niteroi_zone_v3_zone_1_201301_6",
+      "niteroi_zone_v3_zone_1_201304_3",
+      "niteroi_zone_v3_zone_1_201304_6",
+      "niteroi_zone_v3_zone_1_201307_3",
+      "niteroi_zone_v3_zone_1_201307_6",
+      "niteroi_zone_v3_zone_1_201310_3",
+      "niteroi_zone_v3_zone_2_201301_3",
+      "niteroi_zone_v3_zone_2_201301_6",
+      "niteroi_zone_v3_zone_2_201304_3",
+      "niteroi_zone_v3_zone_2_201304_6",
+      "niteroi_zone_v3_zone_2_201307_3",
+      "niteroi_zone_v3_zone_2_201307_6",
+      "niteroi_zone_v3_zone_2_201310_3",
+      "niteroi_zone_v3_zone_3_201301_3",
+      "niteroi_zone_v3_zone_3_201301_6",
+      "niteroi_zone_v3_zone_3_201304_3",
+      "niteroi_zone_v3_zone_3_201304_6",
+      "niteroi_zone_v3_zone_3_201307_3",
+      "niteroi_zone_v3_zone_3_201307_6",
+      "niteroi_zone_v3_zone_3_201310_3",
+      "niteroi_zone_v3_zone_4_201301_3",
+      "niteroi_zone_v3_zone_4_201301_6",
+      "niteroi_zone_v3_zone_4_201304_3",
+      "niteroi_zone_v3_zone_4_201304_6",
+      "niteroi_zone_v3_zone_4_201307_3",
+      "niteroi_zone_v3_zone_4_201307_6",
+      "niteroi_zone_v3_zone_4_201310_3"
+    ]
+  },
+  "calibration": {
+    "quantile": 0.18430085473164448,
+    "block_count": 1,
+    "alpha": 0.1,
+    "scores": [
+      0.18430085473164448
+    ]
+  },
+  "tuning": [
+    {
+      "model_kind": "gradient_boosting",
+      "temperature": 0.1,
+      "validation_normalized_mae": 1.6263404638957333
+    },
+    {
+      "model_kind": "gradient_boosting",
+      "temperature": 0.3,
+      "validation_normalized_mae": 1.5639937589905966
+    },
+    {
+      "model_kind": "gradient_boosting",
+      "temperature": 1.0,
+      "validation_normalized_mae": 1.4799211734492506
+    },
+    {
+      "model_kind": "gradient_boosting",
+      "temperature": 3.0,
+      "validation_normalized_mae": 1.4667222900341212
+    },
+    {
+      "model_kind": "hist_gradient_boosting",
+      "temperature": 0.1,
+      "validation_normalized_mae": 1.6136788132335387
+    },
+    {
+      "model_kind": "hist_gradient_boosting",
+      "temperature": 0.3,
+      "validation_normalized_mae": 1.5409050237759805
+    },
+    {
+      "model_kind": "hist_gradient_boosting",
+      "temperature": 1.0,
+      "validation_normalized_mae": 1.479670879676964
+    },
+    {
+      "model_kind": "hist_gradient_boosting",
+      "temperature": 3.0,
+      "validation_normalized_mae": 1.4682677342006851
+    }
+  ],
+  "training_until": "2012-12-01",
+  "selected_model": "gradient_boosting",
+  "candidate_hyperparameters": {
+    "gradient_boosting": {
+      "alpha": 0.9,
+      "ccp_alpha": 0.0,
+      "criterion": "deprecated",
+      "init": null,
+      "learning_rate": 0.05,
+      "loss": "squared_error",
+      "max_depth": 2,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 4,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "n_estimators": 60,
+      "n_iter_no_change": null,
+      "random_state": 42,
+      "subsample": 1.0,
+      "tol": 0.0001,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "hist_gradient_boosting": {
+      "categorical_features": null,
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 1.0,
+      "learning_rate": 0.05,
+      "loss": "squared_error",
+      "max_bins": 255,
+      "max_depth": 2,
+      "max_features": 1.0,
+      "max_iter": 60,
+      "max_leaf_nodes": 4,
+      "min_samples_leaf": 4,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "quantile": null,
+      "random_state": 42,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "selection_objective": "Minimum mean validation ensemble normalized MAE; threshold minimizes validation retained risk subject to coverage floor",
+  "test_status": "Previously inspected test set; exploratory extension, not fresh confirmatory evidence"
+}

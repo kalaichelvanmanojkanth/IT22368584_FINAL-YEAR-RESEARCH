@@ -1,0 +1,5 @@
+location,decision,reliability_score,effect_absolute,effect_percent,reasons
+zone_1,INSUFFICIENT_EVIDENCE,0.54974718431531,,,Unvalidated gap between training history and intervention window | Too few independent calendar calibration blocks | Single donor; donor-removal stability cannot be established
+zone_2,INSUFFICIENT_EVIDENCE,0.2620753235968742,,,Unvalidated gap between training history and intervention window | Poor pre-intervention fit | Too few independent calendar calibration blocks | Single donor; donor-removal stability cannot be established
+zone_3,INSUFFICIENT_EVIDENCE,0.24234354687519166,,,Unvalidated gap between training history and intervention window | Strong estimator disagreement | Poor pre-intervention fit | Too few independent calendar calibration blocks | Single donor; donor-removal stability cannot be established
+zone_4,INSUFFICIENT_EVIDENCE,0.5553312468184671,,,Unvalidated gap between training history and intervention window | Too few independent calendar calibration blocks | Single donor; donor-removal stability cannot be established

@@ -1,0 +1,95 @@
+{
+  "errors": [],
+  "warnings": [],
+  "statistics": {
+    "rows": 810,
+    "studies": 1,
+    "locations": 5,
+    "date_min": "2007-01-01",
+    "date_max": "2020-06-01",
+    "duplicate_rows": 0,
+    "missing_outcomes": 0,
+    "missing_outcome_percent": 0.0,
+    "column_missing_percent": {
+      "study_id": 0.0,
+      "country": 0.0,
+      "location_id": 0.0,
+      "location_name": 0.0,
+      "date": 0.0,
+      "year": 0.0,
+      "month": 0.0,
+      "dengue_cases": 0.0,
+      "population": 0.0,
+      "dengue_incidence": 0.0,
+      "intervention_status": 0.0,
+      "intervention_start": 20.0,
+      "intervention_exposure": 100.0,
+      "wolbachia_prevalence": 87.65432098765432,
+      "control_status": 0.0,
+      "latitude": 100.0,
+      "longitude": 100.0,
+      "source_file": 0.0,
+      "source_version": 0.0,
+      "retrieval_date": 0.0,
+      "missing_flag": 0.0
+    }
+  },
+  "locations": [
+    {
+      "study_id": "niteroi_zone_v3",
+      "location_id": "control",
+      "rows": 162,
+      "control": true,
+      "pre_months_source_label": 162,
+      "post_months_source_label": 0,
+      "missing_outcomes": 0,
+      "absent_months": 0,
+      "intervention_start": null
+    },
+    {
+      "study_id": "niteroi_zone_v3",
+      "location_id": "zone_1",
+      "rows": 162,
+      "control": false,
+      "pre_months_source_label": 123,
+      "post_months_source_label": 39,
+      "missing_outcomes": 0,
+      "absent_months": 0,
+      "intervention_start": "2017-04-01"
+    },
+    {
+      "study_id": "niteroi_zone_v3",
+      "location_id": "zone_2",
+      "rows": 162,
+      "control": false,
+      "pre_months_source_label": 127,
+      "post_months_source_label": 35,
+      "missing_outcomes": 0,
+      "absent_months": 0,
+      "intervention_start": "2017-08-01"
+    },
+    {
+      "study_id": "niteroi_zone_v3",
+      "location_id": "zone_3",
+      "rows": 162,
+      "control": false,
+      "pre_months_source_label": 130,
+      "post_months_source_label": 32,
+      "missing_outcomes": 0,
+      "absent_months": 0,
+      "intervention_start": "2017-11-01"
+    },
+    {
+      "study_id": "niteroi_zone_v3",
+      "location_id": "zone_4",
+      "rows": 162,
+      "control": false,
+      "pre_months_source_label": 152,
+      "post_months_source_label": 10,
+      "missing_outcomes": 0,
+      "absent_months": 0,
+      "intervention_start": "2019-09-01"
+    }
+  ],
+  "valid": true
+}

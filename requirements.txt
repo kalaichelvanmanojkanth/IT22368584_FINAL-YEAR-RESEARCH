@@ -1,0 +1,3 @@
+# Streamlit hosting discovers this standard filename.
+# Preserve the tested dependency versions, especially for saved sklearn models.
+-r requirements.lock.txt

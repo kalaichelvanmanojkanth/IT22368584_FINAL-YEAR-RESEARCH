@@ -1,0 +1,14 @@
+minimum_pre_history: 36
+horizons: [3, 6]
+spacing_months: 3
+missingness_tolerance: 0.0
+train_end: '2012-12-01'
+validation_end: '2013-12-01'
+calibration_end: '2014-12-01'
+test_end: '2015-12-01'
+temperatures: [0.1, 0.3, 1.0, 3.0]
+acceptance_quantile: 0.75
+minimum_selective_coverage: 0.5
+interval_alpha: 0.1
+minimum_calibration_blocks: 8
+seed: 42

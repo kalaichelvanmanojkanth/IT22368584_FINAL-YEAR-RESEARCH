@@ -1,0 +1,20 @@
+{
+  "run_id": "20261021T213834Z_371b0488",
+  "figures": [
+    "artifacts/figures/20261021T213834Z_371b0488/06_expected_error_comparison.png",
+    "artifacts/figures/20261021T213834Z_371b0488/07_dynamic_model_weights.png",
+    "artifacts/figures/20261021T213834Z_371b0488/08_placebo_results.png",
+    "artifacts/figures/20261021T213834Z_371b0488/09_risk_coverage.png",
+    "artifacts/figures/20261021T213834Z_371b0488/10_stress_tests.png",
+    "artifacts/figures/20261021T213834Z_371b0488/11_strategy_comparison.png"
+  ],
+  "tests": {
+    "source": "artifacts/metrics/all_tests.xml",
+    "tests": 68,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 68
+  },
+  "supported_estimates": 0
+}

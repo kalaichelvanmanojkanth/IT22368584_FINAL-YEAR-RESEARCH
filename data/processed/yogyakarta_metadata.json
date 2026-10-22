@@ -1,0 +1,24 @@
+{
+  "study_id": "yogyakarta_figshare_21321192_v1",
+  "study_design": "Secondary notified-disease analysis around randomized deployments with administrative/cluster boundary mismatch",
+  "intervention_type": "wMel Wolbachia mosquito deployments",
+  "description": "Hospitalised notified DHF only; DF retained separately, never silently summed across surveillance changes",
+  "data_source": "https://doi.org/10.6084/m9.figshare.21321192.v1",
+  "publication": "https://doi.org/10.1080/16549716.2023.2166650",
+  "licence": "CC BY 4.0",
+  "geographic_resolution": "kelurahan",
+  "time_resolution": "monthly",
+  "treatment_definition": "Source first release date plus preserved multi-state exposure status; requires design-specific review",
+  "control_definition": "Not established as a permanent donor set; control_status remains null",
+  "known_limitations": [
+    "Outcome definition differs from Niteroi",
+    "No verified permanent control set",
+    "Release indicator alone does not capture full/partial exposure or contamination",
+    "No cross-site model training/evaluation performed"
+  ],
+  "excluded_predictors": [
+    "avg_wmelpc",
+    "avg_wmel_quint"
+  ],
+  "exclusion_reason": "Centred averaging uses next month"
+}

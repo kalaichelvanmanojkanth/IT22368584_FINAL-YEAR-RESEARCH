@@ -1,0 +1,5 @@
+ablation,status,reason,test_normalized_mae
+without_missingness,not_identifiable,Removed diagnostics are unavailable or constant in this dataset,
+without_donor_stability,not_identifiable,Removed diagnostics are unavailable or constant in this dataset,
+without_disagreement,completed,Fixed full-model temperature; no test tuning,0.07490052181558722
+without_placebo,not_identifiable,Removed diagnostics are unavailable or constant in this dataset,

@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.DS_Store
+.cache/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+data/raw/**/*.xls
+data/raw/**/*.xlsx
+# Reviewed public CC BY 4.0 sources required for reproducible deployment.
+!data/raw/niteroi/Niteroi_ZoneData_May2021_Shared.xls
+!data/raw/yogyakarta/YogyaCity_wMel and dengue case dataset to May22.xlsx
+!data/raw/colombia/AV dengue case and wMel time series data_Figshare.xls
+data/processed/*.csv
+artifacts/models/*.joblib

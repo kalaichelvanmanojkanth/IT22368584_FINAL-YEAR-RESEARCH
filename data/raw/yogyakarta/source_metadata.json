@@ -1,0 +1,118 @@
+{
+  "url_public_html": "https://bridges.monash.edu/articles/dataset/AWED_ITS_and_fogging_analysis_wMel_and_notified_dengue_case_data/21321192/1",
+  "files": [
+    {
+      "id": 37842813,
+      "name": "YogyaCity_wMel and dengue case dataset to May22.xlsx",
+      "size": 442898,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/37842813",
+      "supplied_md5": "a470d9fb5d1be3cc64338933ee220ec2",
+      "computed_md5": "a470d9fb5d1be3cc64338933ee220ec2",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 20963444,
+      "full_name": "Katie Anders",
+      "first_name": "Katie",
+      "last_name": "Anders",
+      "is_active": true,
+      "url_name": "Katie_Anders",
+      "orcid_id": ""
+    },
+    {
+      "id": 5327342,
+      "full_name": "Citra Indriani",
+      "first_name": "Citra",
+      "last_name": "Indriani",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://bridges.monash.edu/articles/dataset/AWED_ITS_and_fogging_analysis_wMel_and_notified_dengue_case_data/21321192",
+  "download_disabled": false,
+  "description": "<p>Wolbachia monitoring data and dengue case notifications data (DHF and DF) by kelurahan and month, before during and after randomised Wolbachia mosquito deployments in Yogyakarta Indonesia, used in a secondary analysis of the AWED trial</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 442898,
+  "created_date": "2023-01-04T12:29:35Z",
+  "modified_date": "2025-06-12T12:55:35Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Dengue",
+    "Wolbachia",
+    "Interrupted Time Series analysis",
+    "Public Health and Health Services not elsewhere classified",
+    "Infectious Diseases"
+  ],
+  "keywords": [
+    "Dengue",
+    "Wolbachia",
+    "Interrupted Time Series analysis",
+    "Public Health and Health Services not elsewhere classified",
+    "Infectious Diseases"
+  ],
+  "categories": [
+    {
+      "id": 27205,
+      "title": "Public health not elsewhere classified",
+      "parent_id": 27184,
+      "path": "/27001/27184/27205",
+      "source_id": "420699",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 24508,
+      "title": "Infectious diseases",
+      "parent_id": 24475,
+      "path": "/24457/24475/24508",
+      "source_id": "320211",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Anders, Katie; Indriani, Citra (2023). AWED ITS and fogging analysis_wMel and notified dengue case data. Monash University. Dataset. https://doi.org/10.6084/m9.figshare.21321192.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 21321192,
+  "title": "AWED ITS and fogging analysis_wMel and notified dengue case data",
+  "doi": "10.6084/m9.figshare.21321192.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/21321192",
+  "published_date": "2023-01-04T12:29:35Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": 1467,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/21321192",
+  "url_public_api": "https://api.figshare.com/v2/articles/21321192",
+  "url_private_html": "https://figshare.com/account/articles/21321192",
+  "timeline": {
+    "posted": "2023-01-04T12:29:35",
+    "firstOnline": "2023-01-04"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

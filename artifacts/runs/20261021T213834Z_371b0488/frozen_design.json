@@ -1,0 +1,42 @@
+{
+  "temperature": 3.0,
+  "best_historical": "synthetic_control",
+  "policy": {
+    "predicted_error_limit": 1.0619487071215346,
+    "disagreement_limit": 0.8322310980657283,
+    "pre_rmse_limit": 1.296198462375922,
+    "extrapolation_limit": 6.367533746842004,
+    "reference_error": 0.20960252474016774,
+    "max_seen_gap": 0.0,
+    "min_horizon": 3,
+    "max_horizon": 6,
+    "min_calibration_blocks": 8
+  },
+  "calibration": {
+    "quantile": 0.18430085473164448,
+    "block_count": 1,
+    "alpha": 0.1,
+    "scores": [
+      0.18430085473164448
+    ]
+  },
+  "tuning": [
+    {
+      "temperature": 0.1,
+      "validation_normalized_mae": 1.6263404638957333
+    },
+    {
+      "temperature": 0.3,
+      "validation_normalized_mae": 1.5639937589905966
+    },
+    {
+      "temperature": 1.0,
+      "validation_normalized_mae": 1.4799211734492506
+    },
+    {
+      "temperature": 3.0,
+      "validation_normalized_mae": 1.4667222900341212
+    }
+  ],
+  "training_until": "2012-12-01"
+}
